@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+// Выход из системы типо слайдер
 // Выход из системы
 if (isset($_GET['logout'])) {
     session_destroy();
